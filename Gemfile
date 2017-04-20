@@ -10,5 +10,6 @@ gem 'mongrel','1.1.5'
 gem 'rush','0.6.8'
 
 group:production do
-	gem 'pg'
+	gem 'rails_12factor'
 end	
+ruby '1.8.7'

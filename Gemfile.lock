@@ -28,6 +28,11 @@ GEM
       activeresource (= 2.3.5)
       activesupport (= 2.3.5)
       rake (>= 0.8.3)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     rake (0.8.7)
     rush (0.6.8)
       session
@@ -44,6 +49,10 @@ DEPENDENCIES
   mongrel (= 1.1.5)
   mysql (= 2.8.1)
   rails (= 2.3.5)
+  rails_12factor
   rake (= 0.8.7)
   rush (= 0.6.8)
   win32-open3
+
+BUNDLED WITH
+   1.14.6
