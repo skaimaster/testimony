@@ -9,17 +9,17 @@ development:
 test: &test
       host: localhost
       adapter: mysql
-      database: fedena_two_new
+      database: test
       port: 3306
-      username: root
-      password: foradian
+      username: test
+      password: test
 
 production:
       host: localhost
       adapter: mysql
-      database: fedena_ultimate
+      database: testimonydb
       port: 3306
-      username: root
-      password: foradian
+      username: testimony
+      password: testimony2017
 cucumber:
   <<: *test
